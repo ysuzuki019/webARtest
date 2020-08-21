@@ -48,7 +48,7 @@ window.onload = () => {
                 } ,
                 {
                     // ここtrueにすると精度が上がる
-                    "enableHighAccuracy": true,
+                    "enableHighAccuracy": false,
                     "timeout": 8000,
                     "maximumAge": 30000,
                 }
