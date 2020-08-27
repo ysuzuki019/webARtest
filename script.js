@@ -48,7 +48,7 @@ window.onload = () => {
                 } ,
                 {
                     // ここtrueにすると精度が上がる
-                    "enableHighAccuracy": false,
+                    "enableHighAccuracy": true,
                     "timeout": 8000,
                     "maximumAge": 30000,
                 }
@@ -136,7 +136,7 @@ window.onload = () => {
 // 使用するモデルの設定
 var models = [
     {
-        url: './assets/lowpoly_pin/AnyConv.com__ABC (Block Stack).gltf',
+        url: './assets/lowpoly_pin/scene.gltf',
         scale: '2 2 2',
         rotation: '0 180 0',
         info: 'Pins',
