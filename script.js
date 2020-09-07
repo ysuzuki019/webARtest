@@ -60,7 +60,7 @@ window.onload = () => {
             label.innerText = errorMessage;
         }
 	}; 
-
+ 
 	var addData = function(){
         countArea.innerText = dataArr.length;
         // 入力欄を初期化
