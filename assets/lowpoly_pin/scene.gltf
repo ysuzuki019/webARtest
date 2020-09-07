@@ -16,24 +16,6 @@
     ],
     "nodes" : [
         {
-            "mesh" : 0,
-            "name" : "Cube"
-        },
-        {
-            "name" : "Light",
-            "rotation" : [
-                0.16907575726509094,
-                0.7558803558349609,
-                -0.27217137813568115,
-                0.570947527885437
-            ],
-            "translation" : [
-                4.076245307922363,
-                5.903861999511719,
-                -1.0054539442062378
-            ]
-        },
-        {
             "name" : "Camera",
             "rotation" : [
                 0.483536034822464,
@@ -46,32 +28,41 @@
                 4.958309173583984,
                 6.925790786743164
             ]
+        },
+        {
+            "name" : "Camera.001",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                6.638870716094971,
+                6.609518527984619,
+                6.520638465881348
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "\u7403.001",
+            "translation" : [
+                -0.7200207710266113,
+                1.6512093544006348,
+                -0.40515223145484924
+            ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "emissiveFactor" : [
-                0,
-                0,
-                0
-            ],
-            "name" : "Material",
-            "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.800000011920929,
-                    0.800000011920929,
-                    0.800000011920929,
-                    1
-                ],
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.4000000059604645
-            }
+            "name" : "\u30de\u30c6\u30ea\u30a2\u30eb.001",
+            "pbrMetallicRoughness" : {}
         }
     ],
     "meshes" : [
         {
-            "name" : "Cube",
+            "name" : "\u7403.001",
             "primitives" : [
                 {
                     "attributes" : {
@@ -89,15 +80,15 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 24,
+            "count" : 3968,
             "max" : [
+                1.7200210094451904,
                 1,
-                1,
-                1
+                1.4051525592803955
             ],
             "min" : [
-                -1,
-                -1,
+                -0.9999998211860657,
+                -2.6512093544006348,
                 -1
             ],
             "type" : "VEC3"
@@ -105,47 +96,47 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 24,
+            "count" : 3968,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 24,
+            "count" : 3968,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 36,
+            "count" : 5760,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 288,
+            "byteLength" : 47616,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 288,
-            "byteOffset" : 288
+            "byteLength" : 47616,
+            "byteOffset" : 47616
         },
         {
             "buffer" : 0,
-            "byteLength" : 192,
-            "byteOffset" : 576
+            "byteLength" : 31744,
+            "byteOffset" : 95232
         },
         {
             "buffer" : 0,
-            "byteLength" : 72,
-            "byteOffset" : 768
+            "byteLength" : 11520,
+            "byteOffset" : 126976
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 840,
+            "byteLength" : 138496,
             "uri" : "scene.bin"
         }
     ]
