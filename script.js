@@ -136,7 +136,7 @@ window.onload = () => {
 // 使用するモデルの設定
 var models = [
     {
-        url: './assets/lowpoly_pin/scene.gltf',
+        url: './assets/lowpoly_pin/scene2.gltf',
         scale: '2 2 2',
         rotation: '0 180 0',
         info: 'Pins',
