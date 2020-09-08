@@ -146,7 +146,7 @@
     "buffers" : [
         {
             "byteLength" : 840,
-            "uri" : "scene.bin"
+            "uri" : "cube.bin"
         }
     ]
 }
